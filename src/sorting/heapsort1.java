@@ -19,6 +19,7 @@ public class heapsort1 {
     public static void main(String[] args) {
         int[] a = {15,5,20,1,17,10,30};
         heapsort(a);
+        System.out.println("Sorted Array:");
         for(int i : a) System.out.print(i+" ");
     }
 
